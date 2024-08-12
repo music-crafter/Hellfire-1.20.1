@@ -1,6 +1,10 @@
 package com.musiccrafter.hellfire_api;
 
 import com.mojang.logging.LogUtils;
+import com.musiccrafter.hellfire_api.block.ModBlocks;
+import com.musiccrafter.hellfire_api.item.ModCreativeModeTabs;
+import com.musiccrafter.hellfire_api.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -25,6 +29,10 @@ public class HellfireAPI {
     public HellfireAPI() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -39,7 +47,9 @@ public class HellfireAPI {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

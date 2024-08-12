@@ -1,0 +1,9 @@
+{
+  "creativetab.hellfire_api": "Hellfire API",
+
+  "item.hellfire_api.raw_chthonium": "Raw Chthonium",
+  "item.hellfire_api.chthonium_ingot": "Chthonium Ingot",
+
+  "block.hellfire_api.chthonium_block": "Block of Chthonium",
+  "block.hellfire_api.raw_chthonium_block": "Block of Raw Chthonium"
+}
