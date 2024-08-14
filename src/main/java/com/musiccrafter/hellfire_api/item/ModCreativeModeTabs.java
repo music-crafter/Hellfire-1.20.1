@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CHTHONIUM_INGOT.get());
                         pOutput.accept(ModBlocks.CHTHONIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_CHTHONIUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.CHTHONIUM_ORE.get());
 
                     })
                     .build());
