@@ -19,12 +19,22 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.hellfire_api"))
                     .displayItems((pParameters, pOutput) -> {
 
+                        // Metals
                         // Chthonium
                         pOutput.accept(ModItems.RAW_CHTHONIUM.get());
                         pOutput.accept(ModItems.CHTHONIUM_INGOT.get());
                         pOutput.accept(ModBlocks.CHTHONIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_CHTHONIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.CHTHONIUM_ORE.get());
+
+                        // Woods
+                        // Pomegranate
+                        pOutput.accept(ModBlocks.POMEGRANATE_LOG.get());
+                        pOutput.accept(ModBlocks.POMEGRANATE_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_POMEGRANATE_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_POMEGRANATE_WOOD.get());
+                        pOutput.accept(ModBlocks.POMEGRANATE_PLANKS.get());
+                        pOutput.accept(ModBlocks.POMEGRANATE_LEAVES.get());
 
                     })
                     .build());
