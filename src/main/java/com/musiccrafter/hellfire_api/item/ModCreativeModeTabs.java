@@ -27,15 +27,6 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.RAW_CHTHONIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.CHTHONIUM_ORE.get());
 
-                        // Woods
-                        // Pomegranate
-                        pOutput.accept(ModBlocks.POMEGRANATE_LOG.get());
-                        pOutput.accept(ModBlocks.POMEGRANATE_WOOD.get());
-                        pOutput.accept(ModBlocks.STRIPPED_POMEGRANATE_LOG.get());
-                        pOutput.accept(ModBlocks.STRIPPED_POMEGRANATE_WOOD.get());
-                        pOutput.accept(ModBlocks.POMEGRANATE_PLANKS.get());
-                        pOutput.accept(ModBlocks.POMEGRANATE_LEAVES.get());
-
                     })
                     .build());
 

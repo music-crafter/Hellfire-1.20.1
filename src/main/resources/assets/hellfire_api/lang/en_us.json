@@ -6,12 +6,6 @@
 
   "block.hellfire_api.chthonium_ore": "Chthonium Ore",
   "block.hellfire_api.chthonium_block": "Block of Chthonium",
-  "block.hellfire_api.raw_chthonium_block": "Block of Raw Chthonium",
+  "block.hellfire_api.raw_chthonium_block": "Block of Raw Chthonium"
 
-  "block.hellfire_api.pomegranate_log": "Pomegranate Log",
-  "block.hellfire_api.pomegranate_wood": "Pomegranate Wood",
-  "block.hellfire_api.stripped_pomegranate_log": "Stripped Pomegranate Log",
-  "block.hellfire_api.stripped_pomegranate_wood": "Stripped Pomegranate Wood",
-  "block.hellfire_api.pomegranate_planks": "Pomegranate Planks",
-  "block.hellfire_api.pomegranate_leaves": "Pomegranate Leaves"
 }

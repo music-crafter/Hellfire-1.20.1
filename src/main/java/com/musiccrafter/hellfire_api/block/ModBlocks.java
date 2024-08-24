@@ -1,19 +1,12 @@
 package com.musiccrafter.hellfire_api.block;
 
 import com.musiccrafter.hellfire_api.HellfireAPI;
-import com.musiccrafter.hellfire_api.block.custom.ModFlammableRotatedPillarBlock;
-import com.musiccrafter.hellfire_api.block.custom.ModLeavesBlock;
-import com.musiccrafter.hellfire_api.block.custom.ModPlanksBlock;
 import com.musiccrafter.hellfire_api.item.ModItems;
-import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -36,19 +29,6 @@ public class ModBlocks {
 
     // Woods
     // Pomegranate
-    public static final RegistryObject<Block> POMEGRANATE_LOG = registerBlock("pomegranate_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_HYPHAE)));
-    public static final RegistryObject<Block> POMEGRANATE_WOOD = registerBlock("pomegranate_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
-    public static final RegistryObject<Block> STRIPPED_POMEGRANATE_LOG = registerBlock("stripped_pomegranate_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_CRIMSON_HYPHAE)));
-    public static final RegistryObject<Block> STRIPPED_POMEGRANATE_WOOD = registerBlock("stripped_pomegranate_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_CRIMSON_STEM)));
-
-    public static final RegistryObject<Block> POMEGRANATE_PLANKS = registerBlock("pomegranate_planks",
-            () -> new ModPlanksBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
-    public static final RegistryObject<Block> POMEGRANATE_LEAVES = registerBlock("pomegranate_leaves",
-            () -> new ModLeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
