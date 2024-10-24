@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_chthonium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hellfire_api:raw_chthonium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hellfire_api:chthonium_ingot_from_blasting_raw_chthonium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_chthonium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hellfire_api:chthonium_ingot_from_blasting_raw_chthonium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

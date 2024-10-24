@@ -1,6 +1,7 @@
 package com.musiccrafter.hellfire_api.datagen;
 
 import com.musiccrafter.hellfire_api.HellfireAPI;
+import com.musiccrafter.hellfire_api.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -14,6 +15,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+
+        // Chthonium
+        blockWithItem(ModBlocks.CHTHONIUM_BLOCK);
+        blockWithItem(ModBlocks.RAW_CHTHONIUM_BLOCK);
+        blockWithItem(ModBlocks.CHTHONIUM_ORE);
 
     }
 

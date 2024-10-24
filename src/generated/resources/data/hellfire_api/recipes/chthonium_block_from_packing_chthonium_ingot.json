@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chthonium",
+  "key": {
+    "#": {
+      "item": "hellfire_api:chthonium_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "hellfire_api:chthonium_block"
+  },
+  "show_notification": true
+}

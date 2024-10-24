@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chthonium",
+  "ingredients": [
+    {
+      "item": "hellfire_api:raw_chthonium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "hellfire_api:raw_chthonium"
+  }
+}

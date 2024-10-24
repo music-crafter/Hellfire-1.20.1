@@ -1,0 +1,10 @@
+// 1.20.1	2024-10-23T19:24:53.4902069	Block States: hellfire_api
+1d17137c2ba328e181c6dfd279975e3f31f9c0f2 assets/hellfire_api/blockstates/chthonium_block.json
+b4601e43ed522c25fb1581161243c4428996cd6f assets/hellfire_api/blockstates/chthonium_ore.json
+beedd4621023c290a2d807bd0b96d5efe45c0652 assets/hellfire_api/blockstates/raw_chthonium_block.json
+1c3a8c67b0bcea26c4834e611ded6115fc4e1102 assets/hellfire_api/models/block/chthonium_block.json
+1d8525b2f02f112ca2ac7300c4ff628f6efdf37b assets/hellfire_api/models/block/chthonium_ore.json
+2c0a7b800d227edc916fe95a049feb34127b90a1 assets/hellfire_api/models/block/raw_chthonium_block.json
+fa3878d405c4590701af698fc1c7a47435345424 assets/hellfire_api/models/item/chthonium_block.json
+904b8285b01d4ba58f4a8f0c35cfa225bc18b13e assets/hellfire_api/models/item/chthonium_ore.json
+855967a7fd441500d6ffe44395538c643a975bf2 assets/hellfire_api/models/item/raw_chthonium_block.json
